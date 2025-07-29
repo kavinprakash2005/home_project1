@@ -1,8 +1,12 @@
 import React from 'react'
-import './index.css'
+import Header from './components/Header'
 
-export default function App() {
+const App = () => {
   return (
-    <div className='bg-blue-600'>App</div>
+    <div className='w-full overflow-hidden'>
+        <Header />
+    </div>
   )
 }
+
+export default App
