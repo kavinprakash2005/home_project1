@@ -1,15 +1,15 @@
 import home1 from './homeimg1.jpg'
-import home2 from './homeimg1'
-import home3 from './homeimg1'
-import home4 from './homeimg1'
-import home5 from './homeimg1'
-import home6 from './homeimg1'
-import test1 from './testimonial1'
-import test2 from './testimonial2'
-import test3 from './testimonial3'
+import home2 from './homeimg2.jpg'
+import home3 from './homeimg3.jpg'
+import home4 from './homeimg4.jpg'
+import home5 from './homeimg5.jpg'
+import home6 from './homeimg6.jpg'
+import test1 from './testimonial1.jpg'
+import test2 from './testimonial2.jpg'
+import test3 from './testimonial3.jpg'
 import home10 from './img10.jpg'
 import home11 from './homeimg11.jpg'
-import home12 from './homeimg12'
+import home12 from './homeimg12.jpg'
 
 
 export const assests ={
@@ -38,40 +38,34 @@ export const projectData =[
          title:"skyline heaven",
         price:"$12334444",
         location:"china",
-        image:home1
+        image:home2
     },
     
     {
          title:"skyline heaven",
         price:"$12334444",
         location:"china",
-        image:home1
+        image:home3
     },
      {
          title:"skyline heaven",
         price:"$12334444",
         location:"china",
-        image:home1
-    },
-    
-     {
-         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
-        image:home1
+        image:home4
     },
     
      {
          title:"skyline heaven",
         price:"$12334444",
         location:"china",
-        image:home1
+        image:home5
     },
+    
      {
          title:"skyline heaven",
         price:"$12334444",
         location:"china",
-        image:home1
+        image:home6
     },
     
     
