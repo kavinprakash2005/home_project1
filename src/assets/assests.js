@@ -78,24 +78,24 @@ export const projectData =[
     image:test1,
     alt:"portrait",
     rating:5,
-    text:"from the vision."
+    text:"from the very first meeting they understood y my vision and and helpped to me find the perfect property they attention to details and commitment to client satisfaction is un matched"
 },
 {
     name:"john",
     title:"MANAGER",
-    image:test1,
+    image:test2,
     alt:"portrait",
     rating:5,
-    text:"from the vision."
+   text:"from the very first meeting they understood y my vision and and helpped to me find the perfect property they attention to details and commitment to client satisfaction is un matched"
 },
 
 {
     name:"john",
     title:"MANAGER",
-    image:test1,
+    image:test3,
     alt:"portrait",
     rating:5,
-    text:"from the vision."
+    text:"from the very first meeting they understood y my vision and and helpped to me find the perfect property they attention to details and commitment to client satisfaction is un matched"
 },
 
 

@@ -41,7 +41,7 @@ const Project = () => {
                     <FaChevronLeft />
                 </button>
                 <button onClick={nextProject} className='p-3 bg-teal-500 rounded mr-2' aria-label='Next Project'>
-                    <FaChevronRight  />
+                    <FaChevronRight />
                 </button>
             </div>
             <div className='overflow-hidden'>
