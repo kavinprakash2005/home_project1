@@ -1,9 +1,11 @@
 import React from 'react'
-import home6 from '../assets/homeimg6.jpg'
 import Navbar from './Navbar.jsx'
+import home6 from '../assets/homeimg6.jpg'
+
+
 const Header = () => {
   return (
-    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden'
+    <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden object-fit:cover'
       style={{ backgroundImage: `url(${home6})` }} id='Header'>
 
       <Navbar />

@@ -10,6 +10,9 @@ import test3 from './testimonial3.jpg'
 import home10 from './img10.jpg'
 import home11 from './homeimg11.jpg'
 import home12 from './homeimg12.jpg'
+import brand from './brandimg.png'
+import king1 from './king1.jpg'
+
 
 
 export const assests ={
@@ -25,6 +28,8 @@ test3,
 home10,
 home11,
 home12,
+brand,
+king1,
 }
 export const projectData =[
     {

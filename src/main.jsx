@@ -12,6 +12,10 @@ import Testimonial from './components/Testimonial.jsx'
 import Contact from './components/Contact.jsx'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './components/Footer.jsx'
+
+
+
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -22,6 +26,10 @@ createRoot(document.getElementById('root')).render(
       <Project />
       <Testimonial />
       <Contact />
+      <Footer/>
+      
+      
+      
     </div>
 
 
