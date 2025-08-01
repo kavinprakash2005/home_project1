@@ -34,42 +34,42 @@ king1,
 export const projectData =[
     {
         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
+        price:"$5000000",
+        location:"Bengaluru",
         image:home1
 
     },
     {
-         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
+         title:"Brezzy Bluff",
+        price:"$10000000",
+        location:"mumbai",
         image:home2
     },
     
     {
-         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
+         title:"Eagle's Perch",
+        price:"$6000000",
+        location:"Tamil nadu",
         image:home3
     },
      {
-         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
+         title:"Hilltop Heaven",
+        price:"$9000000",
+        location:"Assam",
         image:home4
     },
     
      {
-         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
+         title:"Oak Wood Lodge",
+        price:"$75000000",
+        location:"Kerala",
         image:home5
     },
     
      {
-         title:"skyline heaven",
-        price:"$12334444",
-        location:"china",
+         title:"Pinecrest Palace",
+        price:"$87000000",
+        location:"Hyderbad",
         image:home6
     },
     
@@ -78,29 +78,29 @@ export const projectData =[
 ];
  export const testimonialData=[
 {
-    name:"john",
-    title:"MANAGER",
+    name:"Mark Quattrocchi",
+    title:"Assistant Manger",
     image:test1,
     alt:"portrait",
     rating:5,
-    text:"from the very first meeting they understood y my vision and and helpped to me find the perfect property they attention to details and commitment to client satisfaction is un matched"
+    text:"For well over ten years I have had the opportunity to work with kavin homes on projects from modernizations to complex alteration and new construction involving phasing, difficult site conditions and tight time frames. "
 },
 {
-    name:"john",
-    title:"MANAGER",
+    name:"Wolf Gutscher",
+    title:"Director",
     image:test2,
     alt:"portrait",
     rating:5,
-   text:"from the very first meeting they understood y my vision and and helpped to me find the perfect property they attention to details and commitment to client satisfaction is un matched"
+   text:"To say that this 3 month modernization was a Herculean task. I remain convinced at this time, 2 weeks prior to occupancy that no other construction firm in the Bay Area could have handled such a task successfully."
 },
 
 {
-    name:"john",
+    name:"Claudia Tannehil",
     title:"MANAGER",
     image:test3,
     alt:"portrait",
     rating:5,
-    text:"from the very first meeting they understood y my vision and and helpped to me find the perfect property they attention to details and commitment to client satisfaction is un matched"
+    text:"I've had the privilege to work with Rak homes during which time they have provided an excellent team of well-established and experienced professionals, as was their level of professionalism, attentiveness, attitude and performance."
 },
 
 

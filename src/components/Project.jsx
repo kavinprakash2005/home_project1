@@ -53,7 +53,7 @@ const Project = () => {
                             <div className='absolute bottom-5 left-0 right-0 flex justify-center'>
                                 <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
                                     <h2 className='text-xl font-semibold text-gray-800'>{project.title}</h2>
-                                    <p className='text-gray-500 text-sm'>{project.price}<span>|</span>{project.location}</p>
+                                    <p className='text-gray-500 text-sm'>{project.price}<span className='m-2'>|</span>{project.location}</p>
                                 </div>
                             </div>
                         </div>

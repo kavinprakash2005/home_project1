@@ -4,11 +4,11 @@ import brand from '../assets/brandimg.png'
 
 const Footer = () => {
   return (
-    <div className='pt-20 px-4 md:px:32 lg:px-32 bg-gray-900 w-full overflow-hidden ' id='Footer'>
+    <div className='pt-20 px-4 md:px:32 lg:px-32 bg-neutral-950 w-full overflow-hidden ' id='Footer'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
         <div className='w-full md:w-1/3 mb-8  md:mb-0'>
           <img src={brand} className='h-10 w-20 rounded' alt="Brand Logo" />
-          <p className='text-white mt-4'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis in qui esse perferendis mollitia eaque totam quisquam, veniam eligendi, laboriosam magnam nam voluptate quis tempora dolorem sint excepturi ipsam est.</p>
+          <p className='text-gray-400 mt-4'>A humble beginning with a small construction project in year 2005 propped up by its core values of integrity, commitment, and loyalty boosted the company to evolve phenomenally under the dynamic leadership of its founding partner Mr.R.Kavin Today, the company undertook the role of chief contractor for small to medium size projects and executes project management services to synchronize professional trades for industrial/commercial undertakings. </p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
           <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
