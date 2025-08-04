@@ -3,6 +3,7 @@ import { FaChevronLeft } from "react-icons/fa6";
 import { FaChevronRight } from "react-icons/fa";
 import { projectData } from '../assets/assests';
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 const Project = () => {
     const [currentIndex, setcurrentIndex] = useState(0);
     const [cardToShow, setcardToShow] = useState(1);
@@ -30,7 +31,17 @@ const Project = () => {
         setcurrentIndex((prevIndex) => prevIndex == 0 ? projectData.length - 1 : prevIndex - 1)
     }
     return (
-        <div className='container mx-auto py-4 pt-20 px-6 md:px-20 overflow-hidden' id='Project'>
+        <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            transition={{ duration: 1.4 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+
+
+
+
+
+            className='container mx-auto py-4 pt-20 px-6 md:px-20 overflow-hidden' id='Project'>
             <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>
                 Projects<span className='underline underline-offset-4 decoration-1  m-2 under font-light'>Completed</span>
             </h1>
@@ -61,7 +72,7 @@ const Project = () => {
 
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 
 }

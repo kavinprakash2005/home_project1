@@ -2,6 +2,7 @@ import React from 'react'
 import { RiCustomerService2Line } from "react-icons/ri";
 import { useState } from 'react';
 import { toast } from 'react-toastify';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
   const [result, setResult] = useState("");
@@ -31,7 +32,16 @@ const Contact = () => {
     }
   };
   return (
-    <div className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden bg-stone-100 ' id='Contact'>
+    <motion.div
+     initial={{ opacity: 0, x:-200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x:0 }}
+      viewport={{once:true}}     
+    
+    
+    
+    
+    className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden bg-stone-100 ' id='Contact'>
       <h2 className='text-2xl sm:text-4xl font-bold mb-2 text-center m-2'>Contact<span className='underline underline-offset-4
        decoration-1 under font-light m-2'>With Us</span></h2>
       <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Ready to make  a move? let's build you future together</p>
@@ -53,7 +63,7 @@ const Contact = () => {
             {result ? result : "Send Message"}
         </button>
       </form >
-    </div >
+    </motion.div >
 
   )
 }

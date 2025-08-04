@@ -2,6 +2,13 @@ import React from 'react'
 import brand from '../assets/brandimg.png'
 
 
+
+
+
+
+
+
+
 const Footer = () => {
   return (
     <div className='pt-20 px-4 md:px:32 lg:px-32 bg-neutral-950 w-full overflow-hidden ' id='Footer'>
@@ -17,7 +24,8 @@ const Footer = () => {
             <a href='#About' className='hover:text-white'>About</a>
             <a href='#Contact' className='hover:text-white'>Contact</a>
             <a href='#Testimonial' className='hover:text-white'>Testimonial</a>
-            <a href='#' className='hover:text-white'>Private policy</a>
+            
+            
             
             
 
